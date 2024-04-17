@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyProject</title>
+    <link rel="stylesheet" href="mypro.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="background-image">
+        <header class="header">
+                
+            <a style="text-decoration:none" href="#" class ="logo">ayush yadav.</a>
+            <!-- <div id="menu-toggle" class="menu-icon">&#xEF34;</div> -->
+            <i class="ri-menu-3-line menu-icon" id="menu-toggle"></i>
+            
+            <nav class="navbar">
+                
+                <a style="text-decoration:none" href="#home">Home</a>
+                <a style="text-decoration:none" href="#projects">Projects</a>
+                <a style="text-decoration:none" href="#achievements">Achievements</a>
+                <a style="text-decoration:none" href="#POR">Journey</a>
+               
+                
+                <!-- <a href="#contact">Contact</a> -->
+            </nav>
+            <script inline>
+                // Get references to the menu button and the navbar
+                const menuButton = document.getElementById("menu-toggle");
+                const navbar = document.querySelector(".navbar");
+            
+                // Add a click event listener to the menu button
+                menuButton.addEventListener("click", () => {
+                // Toggle the "active" class on the navbar
+                navbar.classList.toggle("active");
+            
+                // Add a transition effect
+                navbar.style.transition = "transform 0.3s ease";
+                });
+            </script>
+            
+            <!-- <div class="main" id="menu-icon">
+                <i class="ri-menu-3-fill"></i>
+            </div> -->
+            
+        </header>
+
+        <section class="home" id="home">
+            <div class="words">
+                <h2 class="xyz">I'm</h2>
+                <h1>AYUSH <span class="x">YADAV</span></h1>
+                <div class="wrapper">
+                    <ul class="dynamic-txts">
+                        <li><span>COMPETITIVE PROGRAMMER</span></li>
+                        <li><span>WEB DEVELOPER</span></li>
+                        <li><span>APP DEVELOPER</span></li>
+                    </ul>
+
+                </div>
+
+                <div class="social-icon">
+                    <a href="https://www.linkedin.com/in/ayush-yadav-617866269/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://github.com/ayushyadav07/" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/ayussssshhhhhhh/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">My Projects</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Untitled design (42).svg" alt="">
+                <div class="portfolio-layer">
+                    <h5>Website</h5>
+                    <p>HTML, CSS, JS</p>
+                    <a href="https://chessiitk.com/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="Untitled design (43).svg" alt="">
+                <div class="portfolio-layer">
+                    <h5>Instagram Clone</h5>
+                    <p>Flutter</p>
+                    <a href="https://zapp.run/edit/flutter-zxh606v5xh70?entry=lib/main.dart&file=lib/main.dart" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Screenshot 2024-04-17 at 3.25.54 AM.png" alt="">
+                <div class="portfolio-layer">
+                    <h5>Website</h5>
+                    <p>HTML, CSS, JS</p>
+                    <a href="https://chessiitk.com/pf.github.io/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <section class="achievements" id="achievements">
+        <h1 class="heading">Achievements</h1>
+        <div class="i">
+            
+                <span class="num" id="num1" data-val="300">500</span>
+            
+                <span class="num" id="num2" data-val="250">500</span>
+
+                <span class="num" id="num3" data-val="150">500</span>
+
+                <span class="num" id="num4" data-val="150">500</span>
+        </div>
+        <!-- <div class="i"> -->
+            <div class="xs" id="xc1">
+                <h3>Quest. on</h3>
+                <p>Codeforces</p>
+            </div>
+            
+            <div class="xs" id="xc2">
+                <h3>Quest. on</h3>
+                <p>CodeChef</p>
+            </div>
+            
+
+            <div class="xs" id="xc3">
+                <h3>Quest. on</h3>
+                <p>LeetCode</p>
+            </div>
+            
+
+            <div class="xs" id="xc4">
+                <h3>Quest. on</h3>
+                <p>GeeksforGeeks</p>
+            </div>
+
+            <div class="s" id="c1">
+                <p>+</p>
+            </div>
+            
+            <div class="s" id="c2">
+                <p>+</p>
+            </div>
+            
+
+            <div class="s" id="c3">
+                <p>+</p>
+            </div>
+            
+
+            <div class="s" id="c4">
+                <p>+</p>
+            </div>
+            <div class="ac1">
+                <h2>Among top <span class="z">2%</span> in CodeChef Starters 110</h2>
+            </div>
+           
+            </div>
+            <div class="ac2">
+                <h2>Globally Ranked <span class="z">1896th</span> in CodeForces Round #839(Div. 3)</h2>
+            </div>
+            
+            
+            <div class="ac3">
+                <h2>Globally Ranked <span class="z">3626th</span> in Google Kickstart Round G 2022</h2>
+            </div>
+            <div class="ac4">
+                <h2>Globally Ranked <span class="z">66th</span> out of 3205 candidates in CodeChef Starters 113</h2>
+            </div>
+
+            <div class="ac5">
+                <h2>Globally Ranked <span class="z">3795th</span> in Educational CodeForces Round #140(Div. 2)</h2>
+            </div>
+            <!-- </div> -->
+        
+    </section>
+
+    <section class="POR" id="POR">
+
+        <h2 class="heading">Journey Till Now</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">Sep 2023</div>
+                    <div class="timeline-content">
+                        <h3>Joined Zariya Chess for Change</h3>
+                        <p>Frontend Developer</p>
+                    </div>
+                
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">Apr 2023</div>
+                    <div class="timeline-content">
+                        <h3>Manager, Design & Web</h3>
+                        <p>Public Policy & Opinion Cell, IITK</p>
+                    </div>
+                
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">Apr 2023</div>
+                    <div class="timeline-content">
+                        <h3>Coordinator, Chess Club</h3>
+                        <p>Games & Sports Council, IITK</p>
+                    </div>
+                
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">July 2022</div>
+                    <div class="timeline-content">
+                        <h3>Reached the mark of 500 problems</h3>
+                        <p>CodeForces, CodeChef, LeetCode</p>
+                    </div>
+                
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">Dec 2021</div>
+                    <div class="timeline-content">
+                        <h3>Joined IIT Kanpur</h3>
+                        <p>Bachelor of Technology</p>
+                    </div>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="ku">
+            <!-- <div class="infos">
+                <h3>Ayush Yadav</h3>
+                <h5>Kanpur  |  India</h5>
+            </div> -->
+            <div class="social">
+                <a href="https://www.linkedin.com/in/ayush-yadav-617866269/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="https://github.com/ayushyadav07/" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.instagram.com/ayussssshhhhhhh/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+            </div>
+        </div>
+
+        </ul>
+    </footer>
+    <script src="mypro.js"></script>
+</body>
+</html>
